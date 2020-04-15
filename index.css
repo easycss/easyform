@@ -35,6 +35,9 @@
   box-shadow: none;
   transition: all 0.12s linear 0s !important;
 }
+.btn:focus{
+  outline: none;
+}
 .btn-white{
   background-color: #f7f7f7;
   color: #5e5e5e;
