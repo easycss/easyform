@@ -27,6 +27,7 @@
   background-color: #d1dade;
   color: #5e5e5e;
   background-image: none !important;
+  outline: none;
   border: 1px solid transparent;
   border-radius: 3px;
   -webkit-border-radius: 3px;
