@@ -1,5 +1,5 @@
 *{
-	-webkit-user-select: none;
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -154,23 +154,6 @@ label{
 label span{
 	font-size: 1.1rem;
 }
-
-/* DROPDOWN */
-.dropdown-fields{
-	margin: 20px auto;
-} 
-.select{
-	padding: 0 10px;
-	border: 0;
-	font-size: 1.4rem;
-	color: var(--form-palette);
-	background-color: white;	
-}
-/* \DROPDOWN */
-
-
-
-
 
 
 /* RESPONSIVE */
