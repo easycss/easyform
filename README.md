@@ -1,7 +1,7 @@
 # EasyForm
 An easy set of simply styled form elements
 
-`<link rel='stylesheet' href='https://easycss.github.io/easyform/index.css'>`
-## https://easycss.github.io/easyform/index.css
-
-![Easy CSS - Easy Form Preview]()
+`<link rel='stylesheet' href='https://easycss.github.io/easyform/form.css'>`
+## https://easycss.github.io/easyform/form.css
+`<link rel='stylesheet' href='https://easycss.github.io/easyform/buttons.css'>`
+## https://easycss.github.io/easyform/buttons.css
