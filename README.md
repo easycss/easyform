@@ -5,7 +5,7 @@ Reference: https://easycss.github.io/easyform/form.html
 
 ## Stylesheet endpoints:
 
-#### HTML form text inputs, textarea, submit button, checkbox and dropdown list
+#### HTML form text input, textarea, submit button and checkbox
 `<link rel='stylesheet' href='https://easycss.github.io/easyform/form.css'>`
 ## https://easycss.github.io/easyform/form.css
 
