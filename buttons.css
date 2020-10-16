@@ -16,7 +16,7 @@
 
 .btn {
   display: inline-block;
-  padding: 9px 12px;
+  padding: 9px 12px 7px 12px;
   /* margin: 5px; */
   min-width: 120px;
   font: .9rem/1rem sans-serif;
