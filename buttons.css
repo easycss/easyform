@@ -4,6 +4,7 @@
 
 /* ============================== */
 /* .btn = base button */
+/* .btn-palette (inherit user-defined custom form styling) */
 /* .btn-white */
 /* .btn-white-border */
 /* .btn-black */
@@ -34,6 +35,9 @@
   text-shadow: none;
   box-shadow: none;
   transition: all 0.12s linear 0s !important;
+}
+.btn-palette{
+  background-color: var(--form-palette);
 }
 .btn:focus{
   outline: none;
