@@ -163,7 +163,7 @@ label span{
 	}	
 }
 @media (max-width: 680px){
-	.form .submit input.btn{
+	.form .submit input.big-btn{
 		padding: var(--button-padding-m);
 		font-size: 1.4rem;
 	}
