@@ -1,6 +1,8 @@
 # EasyForm
 An easy set of simply styled form elements
 
+[https://easycss.github.io/easyform/](https://easycss.github.io/easyform/)
+
 Reference: [https://easycss.github.io/easyform/form.html](https://easycss.github.io/easyform/form.html)
 
 ## Stylesheet endpoints:
