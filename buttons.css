@@ -38,6 +38,7 @@
 }
 .btn-palette{
   background-color: var(--form-palette);
+  color: var(--form-btn-text-color);
 }
 .btn:focus{
   outline: none;
