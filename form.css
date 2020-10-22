@@ -36,14 +36,6 @@
 	display: block;
 	padding: 10px;
 }
-.message textarea:-ms-input-placeholder{
-	display: block;
-	padding: 10px;
-}
-.message textarea::-ms-input-placeholder{
-	display: block;
-	padding: 10px;
-}
 .form .input-fields .input, .message textarea::placeholder{
 	display: block;
 	padding: 10px;
