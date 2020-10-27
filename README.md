@@ -1,10 +1,10 @@
 # EasyForm
 An easy set of simply styled form elements
 
-## BASIC: 
+## BASIC (Preview): 
 [https://easycss.github.io/easyform/form-basic.html](https://easycss.github.io/easyform/form-basic.html)
 
-## ALL:
+## ALL (Preview):
 [https://easycss.github.io/easyform/form-all.html](https://easycss.github.io/easyform/form-all.html)
 
 ## Stylesheet endpoints:
@@ -22,4 +22,4 @@ An easy set of simply styled form elements
 
 
 
-[https://easycss.github.io/easyform/](https://easycss.github.io/easyform/)
+##### [https://easycss.github.io/easyform/](https://easycss.github.io/easyform/)
