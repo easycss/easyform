@@ -1,8 +1,6 @@
 # EasyForm
 An easy set of simply styled form elements
 
-[https://easycss.github.io/easyform/](https://easycss.github.io/easyform/)
-
 ## BASIC: 
 [https://easycss.github.io/easyform/form-basic.html](https://easycss.github.io/easyform/form-basic.html)
 
@@ -21,3 +19,7 @@ An easy set of simply styled form elements
 #### Styled buttons using css classes
 `<link rel='stylesheet' href='https://easycss.github.io/easyform/buttons.css'>`
 ## [https://easycss.github.io/easyform/buttons.css](https://easycss.github.io/easyform/buttons.css)
+
+
+
+[https://easycss.github.io/easyform/](https://easycss.github.io/easyform/)
