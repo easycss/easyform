@@ -1,0 +1,64 @@
+:root{
+	--font: sans-serif;
+	--form-width: 600px;
+	--form-palette: lightgrey;
+	--form-font-size: 1.4rem;
+	--form-label-font-size: 1.3rem;
+	--form-label-span-font-size: 1.1rem;
+	--form-label-palette: grey;
+	--form-errors-palette: red;
+	--form-errors-font-size: 1.1rem;
+	/* --form-btn-text-color: green; */
+}
+body{
+	margin: 20px;
+	padding: 0;
+	font-family: var(--font);
+}
+input[type=text], textarea{
+	margin: 0;
+	padding: 10px 0;
+	width: var(--form-width);
+	border: 1px solid var(--form-palette);
+	background-color: transparent;
+	font-size: var(--form-font-size);
+	font-family: var(--font);
+}
+label{
+	margin: 5px 0 15px;
+	display: flex;
+	align-items: center;
+	font-size: var(--form-label-font-size);
+	color: var(--form-label-palette);
+}
+label span{
+	font-size: var(--form-label-span-font-size);
+	color: var(--form-label-palette);
+}
+.btn{
+	margin-top: 5px;
+}
+.errors{
+	font-size: var(--form-errors-font-size);
+	color: var(--form-errors-palette);
+	margin: 15px 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+li{
+	color: green;
+	margin: 0 5px;
+	list-style-type: none;
+}
+/* RESPONSIVE */
+@media (max-width: 900px){
+	input, textarea{
+		width: 85vw;
+	}	
+}
+/* \RESPONSIVE */
