@@ -1,0 +1,78 @@
+/* ============================== */
+/************ BUTTONS *************/
+/* ============================== */
+
+/* ============================== */
+/* .btn = base button */
+/* .btn-palette (inherit user-defined custom form styling) */
+/* .btn-white */
+/* .btn-white-border */
+/* .btn-black */
+/* .btn-darkblue */
+/* .btn-lightblue */
+/* .btn-green */
+/* .btn-orange */
+/* .btn-red */
+/* ============================== */
+
+.btn {
+  display: inline-block;
+  padding: 9px 12px 7px 12px;
+  min-width: 120px;
+  font: .9rem/1rem sans-serif;
+  line-height: 1.2rem;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #d1dade;
+  color: #5e5e5e;
+  background-image: none !important;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-shadow: none;
+  box-shadow: none;
+  transition: all 0.12s linear 0s !important;
+}
+.btn-palette{
+  background-color: var(--form-palette);
+  color: var(--form-btn-text-color);
+}
+.btn:focus{
+  outline: none;
+}
+.btn-white{
+  background-color: #f7f7f7;
+  color: #5e5e5e;
+}
+.btn-white-border{
+  background-color: #f7f7f7;
+  color: #5e5e5e;
+  border: 1px solid #e5e9ec;
+}
+.btn-dark{
+  background-color: #42444a;
+  color: #f9f9f9;
+}
+.btn-darkblue{
+  color: #f9f9f9;
+  background-color: #1d72bc;
+}
+.btn-lightblue{
+  color: #f9f9f9;
+  background-color: #50cbf1;
+}
+.btn-green{
+  color: #f9f9f9;
+  background-color: #55be55;
+}
+.btn-orange{
+  color: #f9f9f9;
+  background-color: #f8a22a;
+}
+.btn-red{
+  color: #f9f9f9;
+  background-color: #d23934;
+}
+

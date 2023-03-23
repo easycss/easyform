@@ -1,0 +1,164 @@
+*{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+:root{
+	--width: 800px;
+	--form-palette: crimson;
+	--form-btn-text-color: white;
+	--check-hover: #ccc;
+	--check-tick: #09ad7e;
+	--button-padding: 23px 22px 18px 21px;
+	--button-padding-m: 21px 18px 17px 18px;
+}
+.form-container{
+	display: flex;
+	justify-content: center;
+}
+.form {
+	max-width: var(--width);
+	margin: 20px auto;
+}
+.form .input-fields .input, .message textarea {
+	font-family: "Merriweather", sans-serif;
+	width: var(--width);
+	padding: 10px 0;
+	margin: 10px 0;
+	border: 1px solid var(--form-palette);
+}
+.message textarea::-webkit-input-placeholder{
+	display: block;
+	padding: 10px;
+}
+.message textarea::-moz-placeholder{
+	display: block;
+	padding: 10px;
+}
+.form .input-fields .input, .message textarea::placeholder{
+	display: block;
+	padding: 10px;
+}
+.form .message textarea{
+	display: block;
+	padding: 10px;
+	height: 275px;
+}
+input[type=text], textarea{
+	font-size: 1.4rem;
+}
+.form .submit{
+	display: flex;
+	justify-content: flex-start;
+}
+.form .submit input.big-btn{
+	background-color: var(--form-palette);
+	color: var(--form-btn-text-color);
+	padding: var(--button-padding);
+	border-radius: 4px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.6rem;
+	line-height: .1rem;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	border: 0;
+}
+.errors{
+	color: var(--form-palette);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.1rem;
+}
+
+
+
+
+/* CHECKBOX */
+.form .checkbox-fields{
+	position: relative;
+	cursor: pointer;
+	margin: 12px 0;
+}
+/* Hide default checkbox and radio */
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked{
+  position: absolute;
+  left: -9999px;
+}
+input[type="checkbox"]:not(:checked) + label,
+input[type="checkbox"]:checked + label{
+  position: relative;
+  padding-left: 1.55em;
+  cursor: pointer;
+}
+/* checkbox aspect */
+input[type="checkbox"]:not(:checked) + label:before,
+input[type="checkbox"]:checked + label:before{
+  content: '';
+  position: absolute;
+	left: 0; 
+	top: 0;
+	width: 1em; 
+	height: 1em;
+	border: 2px solid var(--form-palette);
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="checkbox"]:checked + label:after {
+  content: '\2713\0020';
+  position: absolute;
+	top: .15em; 
+	left: .15em;
+  font-size: 1.1em;
+  line-height: .9;
+  color: var(--check-tick);
+  transition: all .2s;
+}
+input[type="checkbox"]:not(:checked) + label:after{
+  opacity: 0;
+  transform: scale(0);
+}
+input[type="checkbox"]:checked + label:after{
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* accessibility */
+input[type="checkbox"]:checked:focus + label:before,
+input[type="checkbox"]:not(:checked):focus + label:before{
+  border: 2px dotted var(--form-palette);
+}
+/* hover style */
+label:hover:before {
+  border: 2px solid var(--check-hover) !important;
+}
+label{
+	display: flex;
+	align-items: center;
+	height: 1.3em;
+	font-size: 1.8rem;
+	font-family: "Merriweather", sans-serif;
+	color: grey;
+}
+label span{
+	font-size: 1.1rem;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 900px){
+	.form .input-fields .input, .message textarea{
+		width: 85vw;
+	}	
+}
+@media (max-width: 680px){
+	.form .submit input.big-btn{
+		padding: var(--button-padding-m);
+		font-size: 1.4rem;
+	}
+}
+/* \RESPONSIVE */

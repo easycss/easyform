@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel='stylesheet' href='https://easycss.github.io/easyform/form-all.css' />
+	<link rel="stylesheet" href="https://easycss.github.io/easyform/buttons.css">
+	<style>
+		:root{
+			--form-palette: green; /* USER DEFINED */
+			--form-btn-text-color: white; /* USER DEFINED */
+		}
+	</style>
+	<title>FORM</title>
+</head>
+<body>
+	<div class="form-container">
+		<form action="" method="">
+		
+		<!-- HIDDEN FIELD -->
+		
+		<!-- <input type="hidden" name="form-name" value="form" /> -->
+		
+		<!-- \HIDDEN FIELD -->
+		
+		<div class="form">
+			
+			<!-- INPUT FIELDS -->
+			<div class="input-fields">
+				<input type="text" name="name" class="input" placeholder="Your name" value=""> 
+				<div class="errors"></div>
+				<input type="text" name="email" class="input" placeholder="Your email" value="">
+				<div class="errors"></div>
+			</div><!-- \INPUT FIELDS -->
+	
+			<!-- TEXT AREA -->
+			<div class="message">
+				<textarea name="message" placeholder="Enter your message"></textarea>
+			</div><!-- \TEXT AREA -->
+	
+			<!-- SUBMIT BUTTON -->
+			<div class="submit">
+				<input type="submit" name="submit" value="send" class="btn btn-palette">
+				<!-- alt button styling = .big-btn -->
+			</div><!-- \SUBMIT BUTTON -->
+	
+	
+	
+	
+			<!-- CHECKBOX -->
+			<div class="checkbox-fields">
+				<!-- CSS REMOVES DEFAULT CHECKBOX -->
+				<input type="checkbox" name="check" id="check">
+				<!-- CSS REPLACES CHECKBOX WITH LABEL -->
+				<label for="check"><span>Check the box</span></label>
+			</div>
+			<!-- \CHECKBOX -->
+	
+		<button class="btn btn-white">White</button>
+		<button class="btn btn-white-border">White Border</button>
+		<button class="btn btn-dark">Dark</button>
+		<button class="btn btn-darkblue">Dark Blue</button>
+		<button class="btn btn-lightblue">Light Blue</button>
+		<button class="btn btn-green">Green</button>
+		<button class="btn btn-orange">Orange</button>
+		<button class="btn btn-red">Red</button>
+		</div><!-- \FORM -->
+		</form>
+	</div><!-- \CONTAINER -->
+	
+</body>
+</html>
