@@ -3,11 +3,11 @@ An easy set of simply styled form elements
 
 ## BASIC (Preview): 
 [https://easycss.github.io/easyform/form-basic.html](https://easycss.github.io/easyform/form-basic.html)
-![Basic](https://github.com/easycss/easyform/raw/master/easyform-basic.png)
+![Basic](https://github.com/easycss/easyform/raw/main/easyform-basic.png)
 
 ## ALL (Preview):
 [https://easycss.github.io/easyform/form-all.html](https://easycss.github.io/easyform/form-all.html)
-![Easy Form](https://github.com/easycss/easyform/raw/master/easyform.png)
+![Easy Form](https://github.com/easycss/easyform/raw/main/easyform.png)
 
 ## Stylesheet endpoints:
 `<link rel='stylesheet' href='https://easycss.github.io/easyform/form-basic.css'>`
