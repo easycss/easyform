@@ -76,3 +76,52 @@
   background-color: #d23934;
 }
 
+
+/* ============================== */
+/* FANCY HOVER */
+/* wrap an <a href> around a <span> */
+
+/* 
+  example: 
+  <a href="https://open.spotify.com/artist/66OsKKYin7yLMQUsZxjE91">
+      <span>Hover</span>
+  </a>
+*/
+/* ============================== */
+span {
+  padding: 10px;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(
+    to top,
+    #ffeb44,
+    #ffeb3b calc(100% - 22px),
+    rgba(0, 0, 0, 0) calc(100% - 22px),
+    rgba(0, 0, 0, 0)
+  );
+  background-origin: padding-box;
+  background-position-x: 128px; /* adjust for word width */
+  background-position-y: -50%;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  box-sizing: border-box;
+  color: rgb(64, 64, 64);
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 56px;
+  line-height: 64px;
+  text-decoration-color: rgb(64, 64, 64);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease;
+  visibility: visible;
+  }
+  span:hover {
+  background-position: 0px 100%;
+  }
