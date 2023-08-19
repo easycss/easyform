@@ -78,6 +78,9 @@
 
 
 /* ============================== */
+/* OVERRIDE WITH YOUR STYLES WHERE REQUIRED */
+/* use !important if necessary*/
+
 /* FANCY HOVER */
 /* wrap an <a href> around a <span> */
 
@@ -106,12 +109,12 @@ span {
   background-repeat: no-repeat;
   background-size: 100% 200%;
   box-sizing: border-box;
-  color: rgb(64, 64, 64);
+  color: rgb(64, 64, 64); 
   cursor: pointer;
   display: inline-block;
   font-family: arial, sans-serif;
-  font-size: 56px;
-  line-height: 64px;
+  /* font-size: 56px; */
+  /* line-height: 64px; */
   text-decoration-color: rgb(64, 64, 64);
   text-decoration-line: none;
   text-decoration-style: solid;
