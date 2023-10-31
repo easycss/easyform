@@ -59,7 +59,7 @@ li{
 /* RESPONSIVE */
 @media (max-width: 900px){
 	input, textarea{
-		width: 85vw;
+		width: 90vw!important;
 	}	
 }
 /* \RESPONSIVE */
