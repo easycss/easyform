@@ -1,6 +1,7 @@
 :root{
 	--font: sans-serif;
 	--form-width: 600px;
+  --form-vertical-padding: 7px;
 	--form-palette: lightgrey;
 	--form-font-size: 1.4rem;
 	--form-label-font-size: 1.3rem;
@@ -17,7 +18,7 @@ body{
 }
 input[type=text], input[type=password], input[type=tel], input[type=email], textarea{
 	margin: 0;
-	padding: 10px 0;
+	padding: var(--form-vertical-padding) 0;
 	width: var(--form-width);
 	border: 1px solid var(--form-palette);
 	background-color: transparent;
