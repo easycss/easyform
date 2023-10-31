@@ -35,9 +35,9 @@ label span{
 	font-size: var(--form-label-span-font-size);
 	color: var(--form-label-palette);
 }
-.btn{
+/* .btn{
 	margin-top: 5px;
-}
+} */
 .errors{
 	font-size: var(--form-errors-font-size);
 	color: var(--form-errors-palette);

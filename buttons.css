@@ -18,7 +18,7 @@
 .btn {
   display: inline-block;
   padding: 9px 12px 7px 12px;
-  min-width: 120px;
+  width: fit-content;
   font: .9rem/1rem sans-serif;
   line-height: 1.2rem;
   text-align: center;
