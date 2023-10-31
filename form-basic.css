@@ -3,7 +3,7 @@
 	--form-width: 600px;
   --form-vertical-padding: 7px;
 	--form-palette: lightgrey;
-	--form-font-size: 1.4rem;
+	--form-font-size: 1.3rem;
 	--form-label-font-size: 1.3rem;
 	--form-label-span-font-size: 1.1rem;
 	--form-label-palette: grey;
@@ -12,7 +12,7 @@
 	/* --form-btn-text-color: green; */
 }
 body{
-	margin: 20px;
+	/* margin: 20px; */
 	padding: 0;
 	font-family: var(--font);
 }
@@ -36,9 +36,9 @@ label span{
 	font-size: var(--form-label-span-font-size);
 	color: var(--form-label-palette);
 }
-/* .btn{
-	margin-top: 5px;
-} */
+.btn{
+	margin-top: -5px;
+}
 .errors{
 	font-size: var(--form-errors-font-size);
 	color: var(--form-errors-palette);
